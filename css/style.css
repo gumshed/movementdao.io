@@ -145,7 +145,7 @@ a:hover {
 
 .t-uppercase {
   text-transform: uppercase;
-}
+}text-shadow:2px 2px 0 #566573
 
 /*==========================================================================
   Misc & Adjust
@@ -196,6 +196,7 @@ a:hover {
 
 .color-white {
   color: #fff;
+  text-shadow:2px 2px 0 #566573
 }
 
 .theme-bg {
@@ -487,8 +488,8 @@ i.service-icon:hover {
 .service-col h2 a {
   color: #417630;
 }
-
 }
+
 
 .service-col p {
   font-size: 0.875em;
@@ -1154,7 +1155,7 @@ section.featured.inner {
   height: 650px;
 }
 
-#section-SCE {
+#section-DAO {
   background-color: #fff;
   height: 650px;
 }
@@ -1320,7 +1321,7 @@ section.featured.inner {
 About
 =========================== */
 
-.SCE-section {
+.DAO-section {
   width: 100%;
   min-width: 100%;
   text-align: center;
@@ -1328,11 +1329,11 @@ About
   position: relative;
 }
 
-.SCE-section .special-heading {
+.DAO-section .special-heading {
   margin-bottom: 30px;
 }
 
-.SCE-member {
+.DAO-member {
   margin: 0 40px 40px;
   padding: 10px;
   -webkit-transition: all 0.2s ease-out;
@@ -1348,7 +1349,7 @@ About
   z-index: 2;
 }
 
-.SCE-member .profile-picture {
+.DAO-member .profile-picture {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1363,7 +1364,7 @@ About
   position: relative;
 }
 
-.SCE-member .profile-picture .profile-overlay {
+.DAO-member .profile-picture .profile-overlay {
   height: 94%;
   width: 94%;
   background-color: #b4dba7;
@@ -1385,19 +1386,19 @@ About
   display: block;
 }
 
-.SCE-member .profile-picture img {
+.DAO-member .profile-picture img {
   width: 100%;
   height: auto;
   -webkit-border-radius: 50%;
 }
 
-.SCE-member h3 {
+.DAO-member h3 {
   font-size: 1.75em;
   font-weight: 700;
   margin-bottom: 0;
 }
 
-.SCE-member span {
+.DAO-member span {
   font-size: 0.875em;
   font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
@@ -1405,7 +1406,7 @@ About
   padding-top: -10px;
 }
 
-.SCE-member .profile-social {
+.DAO-member .profile-social {
   font-size: 1.3125em;
   line-height: 1.9047em;
   opacity: 1;
@@ -1417,7 +1418,7 @@ About
   display: none;
 }
 
-.SCE-member .profile-social .icons-wrapper {
+.DAO-member .profile-social .icons-wrapper {
   margin: 50px auto 0;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1427,16 +1428,16 @@ About
   transition: all 0.6s ease-out;
 }
 
-.SCE-member .profile-social .icons-wrapper a {
+.DAO-member .profile-social .icons-wrapper a {
   color: #fff;
   margin: 0 5px;
 }
 
-.SCE-member .profile-social .icons-wrapper a:hover {
+.DAO-member .profile-social .icons-wrapper a:hover {
   color: #417630;
 }
 
-.SCE-member .SCE-bio {
+.DAO-member .DAO-bio {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   position: absolute;
@@ -1460,7 +1461,7 @@ About
   z-index: 1;
 }
 
-.SCE-member .SCE-bio p {
+.DAO-member .DAO-bio p {
   font-size: 0.75em;
   height: auto;
   opacity: 0;
@@ -1469,11 +1470,11 @@ About
   color: #000;
 }
 
-.SCE-member:hover {
+.DAO-member:hover {
   background-color: rgba(91, 223, 48, 0.12)
 }
 
-.SCE-member:hover .profile-picture .profile-overlay {
+.DAO-member:hover .profile-picture .profile-overlay {
   opacity: 0.3;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
   -webkit-transition: all 0.3s ease-out;
@@ -1482,7 +1483,7 @@ About
   transition: all 0.3s ease-out;
 }
 
-.SCE-member:hover .profile-picture .icons-wrapper {
+.DAO-member:hover .profile-picture .icons-wrapper {
   margin-top: 150px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1494,7 +1495,7 @@ About
   -webkit-transition-delay: 0.3s;
 }
 
-.SCE-member:hover .SCE-bio {
+.DAO-member:hover .DAO-bio {
   height: auto;
   overflow: hidden;
   -webkit-transition: all 0.3s ease-out;
@@ -1508,7 +1509,7 @@ About
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-.SCE-member:hover .SCE-bio p {
+.DAO-member:hover .DAO-bio p {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   -webkit-transition: all 0.3s ease-out;
@@ -1519,7 +1520,7 @@ About
   -webkit-transition-delay: 0.3s;
 }
 
-.SCE-detail h4 span {
+.DAO-detail h4 span {
 
   margin-top: 5px;
 }
@@ -1685,15 +1686,17 @@ nav#filter a {
 }
 
 .testimonial span.author {
-  color: #fff;
+  color: #D5D8DC;
   font-weight: 700;
+  text-shadow:2px 2px 0 #566573
 }
 
 .testimonial h5 {
-  color: #fff;
+  color: #D5D8DC;
   font-size: 18px;
   font-family: Georgia, sans-serif;
   line-height: 1.5em;
+   ;
 }
 
 /*===========================
@@ -2085,7 +2088,7 @@ Media queries
 
 
 
-  .SCE-member,
+  .DAO-member,
   .col-lg-4 {
     margin-bottom: 30px;
   }
