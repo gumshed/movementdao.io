@@ -1017,6 +1017,7 @@ section.featured h2.slogan {
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition: color 300ms, background-color 300ms;
   transition: color 300ms, background-color 300ms;
+  
 }
 
 .carousel-inner .form-inline .form-group button[type="getnow"] {
